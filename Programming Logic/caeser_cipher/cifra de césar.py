@@ -26,8 +26,8 @@ def cifra(encrypt):
 
     while True:
         rot = input("Chave numérica: ")
-        if rot.isdigit() == False:
-            print("Chave inválida. Digite um valor numérico!")
+        if rot.isdigit() == False or rot == '0':
+            print("Chave inválida. Digite um valor numérico válido!")
         else:
             rot = int(rot)
             break
@@ -40,11 +40,14 @@ def cifra(encrypt):
             mensagem_criptografada += i
 
     print(mensagem_criptografada)
-
+    input("Digite algo para sair ")
+    
 while True:
-    encrypt = int(input("Escolha um número para definir o que pretende fazer:\n   1 - Encriptografar\n   0 - Descriptografar\n"))
-    if 1 != encrypt != 0:
-        print("Entrada Inválida")
+    encrypt = input("Escolha um número para definir o que pretende fazer:\n   1 - Encriptografar\n   0 - Descriptografar\n")
+    if not encrypt.isdigit():
+        print("Entrada inválida!")
+    elif encrypt != "1" and encrypt != "0":
+        print("Entrada inválida!")
     else:
         break
-cifra(encrypt)
+cifra(int(encrypt))
