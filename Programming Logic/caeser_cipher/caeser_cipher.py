@@ -1,15 +1,3 @@
-# Equipe: 27
-# Eduardo Pozzobom/183178/3°SI
-# Elthon Migotto/193046/3°SI
-# Matheus Sordi/182483/3°SI
-# Guilherme Nunes/192582/3°SI
-# Guilherme Ruhan/197191/1°EC
-# Vitor Pessoa/185467/3°SI
-# Kaique Cardoso/196432/1°EC
-# Joyce Barros/059339/5°SI
-# Thales Sforni/194826/1°SI
-# 12/04/2023
-
 import string
 
 def cifra(encrypt):
