@@ -9,11 +9,13 @@ The Caesar Cipher is a simple substitution cipher algorithm where each letter in
 - The encrypted message will be displayed in the terminal or command prompt.
 
 ## Example
-- **Encriptografia**
-<p align="center"><img src="caeser_cipher/example-1.png"></p>
+For validation purposes, the input message only accepts uppercase letters, digits, and spaces, which are included in the final message. Any invalid character or shift key will return to the input.
 
-- **Descriptografia**
-<p align="center"><img src="caeser_cipher/example-2.png"></p>
+- **Encrypting**
+<p align="center"><img src="https://github.com/vitudominguess/Py-Projects/blob/main/Programming%20Logic/caeser_cipher/example-1.png"></p>
+
+- **Decryption**
+<p align="center"><img src="https://github.com/vitudominguess/Py-Projects/blob/main/Programming%20Logic/caeser_cipher/example-2.png"></p>
 
 ## Contributing
 If you would like to contribute to this repository, feel free to create a pull request with your changes. Please ensure that your code is well-documented and follows best practices for Python programming. If you have any questions or suggestions, please create an issue to discuss.
